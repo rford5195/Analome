@@ -1,0 +1,290 @@
+/*Colors: Black, White, Green, Blue, Gold*/
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+button{
+	border-radius: 12px;
+	padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+body{
+	background-color: black;
+}
+.empty-space{
+	height: 10vh;
+}
+#logo{
+	color: gold;
+	text-align: center;
+}
+#main-img{
+	width: 450px;
+	padding: none;
+	margin: none;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 15s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+.text {
+  color: #FFD700;
+  font-size: 2em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  text-shadow: 2px 2px #000000;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+#missions{
+	margin: 60px;
+	border: 20px;
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	text-align: center;
+}
+#level{
+	width: 100px;
+}
+
+p{
+	color:olive;
+}
+h3{
+	color:steelblue;
+}
+
+
+.column {
+    float: left;
+	color:white;
+}
+
+.left1 {
+	margin-left: 20px;
+    width: 40%;
+}
+
+.right1 {
+margin-right: -10%;
+
+    width: 50%;
+}
+.bullet{
+	color:gold;
+}
+li span{
+    color: white;
+}
+.head{
+	color: gold;
+}
+#about-img{
+	display: block;
+	width: 80%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column2 {
+
+    float: left;
+	color:white;
+}
+
+.left2{
+margin-left: 40px;
+	width: 45%;
+}
+.right2 {
+	margin-right: 10px;
+    width: 50%;
+}
+.head{
+	margin-left: 40px;
+}
+h5{
+	color: gold;
+	display: block;
+	float: left;
+}
+.pimg{
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin:auto;
+}
+#sponsors{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.partnerships{
+	border-width: 3px;
+	border-color: gold;
+	border-style: solid;
+	margin:60px 30px 100px 30px;
+}
+.partnerships .hide{
+	display: none;
+}
+.partnerships:hover .hide{
+	display: block;
+	text-align: center;
+}
+.partnerships:hover .show{
+	display: none;
+}
+.partnerships:hover .pimg{
+	display: none;
+}
+.special{
+	color: steelblue;
+}
+.meh{
+	color: white;
+}
+form{
+	color: gold;
+}
+.column3 {
+
+    float: left;
+	color:white;
+}
+
+.left3{
+margin-left: 40px;
+	width: 60%;
+}
+.right3 {
+	margin-right: 10px;
+    width: 35%;
+}
+.bruh{
+
+    color: white;
+}
+#sho1{
+	display:block;
+}
+#hi1{
+	display:none;
+}
+#yaga{
+	display: none;
+}
+@media only screen and (max-width: 600px) {
+  nav{
+  	position: fixed;
+  }
+  #yaga{
+  	display: block;
+  	text-align: center;
+  }
+  .navbar-brand{
+  	display: none;
+  }
+    	#sho1{
+    		display:none;
+    	}
+    	#hi1{
+	display:block;
+}
+.right1{
+	margin: none;
+}
+.right2{
+	margin: none;
+}
+.right3{
+	margin: none;
+}
+.left1{
+	margin: none;
+}
+.left2{
+	margin: none;
+}
+.left3{
+	margin: none;
+}
+}
+    .copyright{
+    	float: left;
+    	color: gray;
+    	margin-left: 10px;
+    }
+.linked{
+	float:right;
+	margin-right: 30px;
+}

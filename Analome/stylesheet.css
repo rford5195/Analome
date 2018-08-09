@@ -254,6 +254,10 @@ margin-left: 40px;
   .navbar-brand{
   	display: none;
   }
+  button{
+  	background-color:white;
+  	color:black;
+  }
     	#sho1{
     		display:none;
     	}
